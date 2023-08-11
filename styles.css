@@ -1,0 +1,62 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+    background-size: 1440px;
+    color: #ffffff;
+    margin: 50px 100px;
+}
+
+.logo{
+    display: block;
+    padding-bottom: 100px;
+}
+
+.content{
+    display: flex;
+    justify-content: auto;
+    align-items: auto;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.text{
+    padding: 0 430px 0 80px;
+}
+
+button{
+    padding: 15px 60px;
+    border: 0 solid #ffffff;
+    box-shadow: 0 0 15px rgb(20, 20, 20);
+    border-radius: 25px;
+    color: hsl(257, 40%, 49%);
+    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover{
+    background: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 30px 350px;
+}
+
+ion-icon{
+    width: 35px;
+    height: 35px;
+    position: right;
+    color: #ffffff;
+    padding: 0 4px;
+}
+
+ion-icon:hover{
+    color: hsl(300, 69%, 71%);
+}
